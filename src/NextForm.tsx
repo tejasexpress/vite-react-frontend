@@ -73,7 +73,7 @@ export function NextForm({ usertext, usermodel, decision, confidence }: NextForm
             confidence: confidence,
             expmodel: data.expmodel,
         }
-        const response = await axios.post('http://https://ml-backend-fhof.onrender.com/api/explanation-submit', expInput);
+        const response = await axios.post('https://https://ml-backend-fhof.onrender.com/api/explanation-submit', expInput);
 
         // Handle the response as needed
         

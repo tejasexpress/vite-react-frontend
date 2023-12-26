@@ -61,7 +61,7 @@ export function TextareaForm() {
   async function onSubmit(data: z.infer<typeof FormSchema>) {
     try {
       // Make a POST request to your server endpoint
-      const response = await axios.post('http://https://ml-backend-fhof.onrender.com/api/text-submit', data);
+      const response = await axios.post('https://https://ml-backend-fhof.onrender.com/api/text-submit', data);
 
       const decision = response.data.output.decision;
       const confidence = response.data.output.confidence;
